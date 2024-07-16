@@ -8,7 +8,7 @@ const App = () => {
      
        
   function updateData() {
-    setData(count+1)
+    setData(prevCount => prevCount + 1)
   }
   return(
 <div className="App">
