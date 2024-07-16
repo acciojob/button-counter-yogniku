@@ -13,7 +13,7 @@ const App = () => {
   return(
 <div className="App">
   
-  <p>button cliked {count} times</p>
+  <p>Button cliked {count} times</p>
   <button onClick={updateData}>click me</button>
     </div>
   )
